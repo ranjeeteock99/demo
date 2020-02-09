@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<script>
+ (function () {
+    $('form > input').keyup(function() {
+        var empty = false;
+        $('form > input').each(function() {
+            if ($(this).val() == '') {
+                empty = true;
+            }
+        });
+        if (empty) {
+            $('#changepassword').attr('disabled', 'disabled');
+        } else {
+            $('#changepassword').removeAttr('disabled');
+        }
+    });
+})()
+</script>
+</head>
+<body>
+	<form>
+    Username<br />
+    <input type="text" id="user_input" name="username" /><br />
+    Password<br />
+    <input type="password" id="pass_input" name="password" /><br />
+    Confirm Password<br />
+    <input type="password" id="v_pass_input" name="v_password" /><br />
+    Email<br />
+    <input type="text" id="email" name="email" /><br />
+    <input type="submit" id="register" value="Register" disabled="disabled" />
+</form>
+<div id="test">
+</div></body>
+</html>
+
+
+
