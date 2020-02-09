@@ -1,0 +1,14 @@
+TestCases for IOs
+
+TestCases (Camera main Screen)                Action
+1.upload image                                 Pass
+2.upload video                                 pending
+
+TestCases(Gallery)                                             
+3.upload image                                 Pass
+4.upload video (34 mb)                         Pass
+
+TestCases(camera new upload screen)
+
+5.Upload image                                 Pass
+6.upload video                                 Pass

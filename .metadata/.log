@@ -1,0 +1,20 @@
+!SESSION 2019-10-16 18:00:13.792 -----------------------------------------------
+eclipse.buildId=4.11.0.I20190307-0500
+java.version=1.8.0_222
+java.vendor=Private Build
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_IN
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -data /home/ranjeet/Desktop/Automation -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.egit.core 1 0 2019-10-16 18:00:17.387
+!MESSAGE Using Apache MINA sshd as ssh client.
+!SESSION 2020-01-07 18:33:41.782 -----------------------------------------------
+eclipse.buildId=4.11.0.I20190307-0500
+java.version=1.8.0_232
+java.vendor=Private Build
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_IN
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -data /home/ranjeet/Desktop/Automation -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.egit.core 1 0 2020-01-07 18:33:49.362
+!MESSAGE Using Apache MINA sshd as ssh client.
